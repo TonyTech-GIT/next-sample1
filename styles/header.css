@@ -1,0 +1,55 @@
+.header {
+  /* background: linear-gradient(
+    311deg,
+    rgba(29, 35, 83, 1) 38%,
+    rgba(161, 13, 28, 1) 93%
+  ); */
+
+  position: relative;
+}
+
+.nav-icons {
+  background-color: #c4bbbb;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+
+  margin: 0 auto;
+  padding-block: 0.5rem 0.2rem;
+  padding-inline: 1.5rem;
+
+  border-radius: 10px 10px 0px 0px;
+
+  position: absolute;
+  left: 18rem;
+  top: 36rem;
+}
+
+.icon {
+  width: 40%;
+  height: 40%;
+
+  cursor: pointer;
+}
+
+.about-icon {
+  position: relative;
+  left: 0.5rem;
+}
+.project-icon {
+  width: 70%;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-icons {
+    left: 7rem;
+    top: 42.5rem;
+  }
+
+  .project-icon {
+    width: 100%;
+  }
+}
